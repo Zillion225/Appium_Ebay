@@ -26,13 +26,7 @@ Launch mobile app
     Log    Loaded capabilities: ${capabilities}    # Log loaded capabilities for debugging
 
     # Open the application using Appium with the provided capabilities
-    Open Application    ${APPIUM_URL}
-    ...    automationName=${capabilities["automationName"]}
-    ...    platformName=${capabilities["platformName"]}
-    ...    platformVersion=${capabilities["platformVersion"]}
-    ...    deviceName=${capabilities["deviceName"]}
-    ...    appPackage=${capabilities["appPackage"]}
-    ...    appActivity=${capabilities["appActivity"]}
+    Open Application    ${APPIUM_URL}    &{capabilities}
 
 # Keyword: Load capabilities from JSON file
 
