@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.VENV/
+
+# Robot Framework output files
+*.xml
+*.html
+*.log
+output/
+results/
+reports/
+logs/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test data
+*.csv
+*.json
+*.xlsx
+*.xls
+
+# Dependency files
+*.lock
+
+# Robot Framework library files
+*.robot.py
+*.resource.py
+
+# Ignore all hidden files and directories
+.*
+!/.gitignore
