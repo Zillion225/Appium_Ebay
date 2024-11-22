@@ -1,0 +1,9 @@
+{
+    "platformName": "Android",
+    "platformVersion": "14.0",
+    "deviceName": "257f9538",
+    "appPackage": "com.ebay.mobile",
+    "appActivity": "com.ebay.mobile.home.impl.main.MainActivity",
+    "automationName": "UiAutomator2",
+    "skipHiddenApiPolicyError": true
+}
