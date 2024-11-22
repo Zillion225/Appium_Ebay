@@ -1,7 +1,7 @@
 *** Settings ***
 # Import libraries and resources
 Library             AppiumLibrary    # For interacting with mobile applications
-Resource            ../Resources/CommonPO.robot    # Common reusable keywords
+Resource            ../Resources/PageObjects/CommonPO.robot    # Common reusable keywords
 Resource            ../Resources/PageObjects/EbayPO.robot    # eBay-specific page object keywords
 
 # Define test setup and teardown

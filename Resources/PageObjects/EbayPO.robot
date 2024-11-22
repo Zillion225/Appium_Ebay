@@ -1,7 +1,7 @@
 *** Settings ***
 # Import necessary libraries and resources
 Library     AppiumLibrary    # For interacting with mobile applications
-Resource    ../CommonPO.robot    # Common resource file containing reusable keywords
+Resource    ./CommonPO.robot    # Common resource file containing reusable keywords
 
 
 *** Keywords ***
